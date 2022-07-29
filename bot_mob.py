@@ -9,7 +9,7 @@ import json
 
 
 #Первое, что нужно сделать это импортировать нашу библиотеку и подключить токен бота:
-token = '502692378:AAH77G9qfAsf1kS3wZIrP6HXFIOiI8WPijQ'
+token = '5461448473:AAH41_ke8ZqBLzpbZDzX8pptV0JxB0jDpFo'
 bot = telebot.TeleBot(token)
 #connect to MongoDB
 cluster = MongoClient("mongodb+srv://kulklao:i124q@cluster0.qa1ye.mongodb.net/?retryWrites=true&w=majority&ssl=true")
