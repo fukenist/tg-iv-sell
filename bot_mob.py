@@ -5,8 +5,10 @@ import time
 from telegram import ParseMode
 import requests
 import json
+import os
 
-
+os.environ.get('PORT', 3000)
+print(os.environ.get('PORT', 3000))
 
 #Первое, что нужно сделать это импортировать нашу библиотеку и подключить токен бота:
 token = '5461448473:AAH41_ke8ZqBLzpbZDzX8pptV0JxB0jDpFo'
