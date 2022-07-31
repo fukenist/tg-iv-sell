@@ -11,7 +11,7 @@ os.environ.get('PORT', 3000)
 print(os.environ.get('PORT', 3000))
 
 #Первое, что нужно сделать это импортировать нашу библиотеку и подключить токен бота:
-token = '5461448473:AAH41_ke8ZqBLzpbZDzX8pptV0JxB0jDpFo'
+token = '5461448473:AAEVogR_9GWOLQd3khisHKB_u_2xzz4sXoc'
 bot = telebot.TeleBot(token)
 #connect to MongoDB
 cluster = MongoClient("mongodb+srv://kulklao:i124q@cluster0.qa1ye.mongodb.net/?retryWrites=true&w=majority&ssl=true")
