@@ -184,5 +184,5 @@ def contact(message):
 			#337897610
 
 if __name__ == '__main__':
-	bot.infinity_polling(True)
+	bot.polling(none_stop=True, interval=0)
 
