@@ -7,8 +7,7 @@ import requests
 import json
 import os
 
-os.environ.get('PORT', 3000)
-print(os.environ.get('PORT', 3000))
+PORT = process.env.PORT || 3000;
 
 #Первое, что нужно сделать это импортировать нашу библиотеку и подключить токен бота:
 token = '5461448473:AAEVogR_9GWOLQd3khisHKB_u_2xzz4sXoc'
