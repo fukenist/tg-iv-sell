@@ -1,1 +1,1 @@
-worker: gunicorn bot_mob:intense-hamlet-43964
+web: gunicorn bot_mob:intense-hamlet-43964
