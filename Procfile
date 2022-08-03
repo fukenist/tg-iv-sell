@@ -1,1 +1,1 @@
-worker: python bot_mob.py
+worker: gunicorn bot_mob:intense-hamlet-43964
