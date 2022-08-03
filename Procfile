@@ -1,1 +1,1 @@
-web: gunicorn bot_mob:intense-hamlet-43964
+web: python bot_mob.py
