@@ -1,1 +1,1 @@
-web: python date_db.py
+web: python bot_mob.py
